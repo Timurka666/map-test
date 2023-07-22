@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.leaflet-container {
+  height: 100%;
+}
+
+.routes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.routes-table, th, td {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.routes-table tr:hover td {
+  background-color: aqua;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.routes-table tr td {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.selected-row {
+  background-color: aqua;
+}
